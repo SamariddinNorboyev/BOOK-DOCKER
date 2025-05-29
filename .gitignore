@@ -3,4 +3,4 @@ env
 .idea
 /.gitignore/
 .gitignore
-'.gitignore'
+/.idea/
