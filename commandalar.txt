@@ -1,0 +1,37 @@
+Docker Compose asosiy buyruqlar (O‘zbek tilida tushuntirilgan)
+docker-compose up
+→ Konteynerlarni yaratadi va ishga tushiradi.
+
+docker-compose up -d
+→ Konteynerlarni fonda (background) ishga tushiradi.
+
+docker-compose down
+→ Konteynerlarni, tarmoqlarni va boshqa resurslarni o‘chiradi.
+
+docker-compose build
+→ Docker image’larni quradi (Dockerfile asosida).
+
+docker-compose stop
+→ Konteynerlarni vaqtincha to‘xtatadi, lekin o‘chirmaydi.
+
+docker-compose start
+→ Oldin to‘xtatilgan konteynerlarni qayta ishga tushiradi.
+
+docker-compose restart
+→ Konteynerlarni qayta ishga tushiradi (to‘xtatib, qayta boshlaydi).
+
+docker-compose logs
+→ Konteynerlarning loglarini ko‘rsatadi (konsoldagi chiqishlar).
+
+docker-compose logs -f
+→ Loglarni jonli tarzda (real-time) ko‘rsatadi.
+
+docker-compose ps
+→ Hozirda ishlayotgan konteynerlarni ko‘rsatadi.
+
+docker-compose exec <xizmat_nomi> bash
+→ Xizmat ichida terminal (bash) ochish. Masalan: docker-compose exec web bash
+
+docker-compose run <xizmat_nomi> <buyruq>
+→ Bir martalik buyruqni bajarish uchun konteyner yaratadi. Masalan: docker-compose run web python manage.py migrate
+
